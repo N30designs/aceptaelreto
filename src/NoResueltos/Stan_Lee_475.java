@@ -1,3 +1,8 @@
+/**Title: Cameos de Stan Lee
+**Problem 475
+**Author: Adrián Arabit Ferre <adrianarabit@gmail.com>*/
+
+package NoResueltos;
 import java.util.Scanner;
 
 public class Stan_Lee_475 {
