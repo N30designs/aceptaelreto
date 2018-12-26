@@ -32,12 +32,12 @@ public class Stan_Lee_475 {
                         T++;
                     }else if(((frase.charAt(j)=='a')||(frase.charAt(j)=='A'))&&(S>=1)&&(T>=1)){
                         A++;
-                    }else if(((frase.charAt(j)=='n')||(frase.charAt(j)=='N'))&&(S>=1)&&(T>=1)&&(A==1)){
+                    }else if(((frase.charAt(j)=='n')||(frase.charAt(j)=='N'))&&(S>=1)&&(T>=1)&&(A>=1)){
                         N++;
                         S=0;
                         T=0;
                         A=0;
-                        L=0;
+                        N=0;
                         STAN++;
                         StanOK=true;
                     }//fin IF
