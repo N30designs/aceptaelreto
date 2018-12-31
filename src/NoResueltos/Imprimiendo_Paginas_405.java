@@ -14,32 +14,18 @@ public class Imprimiendo_Paginas_405 {
         Scanner in = new Scanner(System.in);
         int n, y, x=0;
         int bajoRango=0, altoRango=0;
-        do{
             n = in.nextInt();
 
-            do{
-                y = in.nextInt();
-
-                if((y-1)==(x)){
-                    if(bajoRango==0) {
-                        bajoRango = x;
-                        System.out.print(x + "-");
-                    }
-                }else if(((y-1)!=x)&&(bajoRango>1)){
-                    altoRango=x;
-                    System.out.print(x+",");
-                }
-
-                x=y;
-
-
-
-            }while(y!=0);
 
 
 
 
-        }while(n!=0);
+
+
+
+
+
+
 
     }//fin main
 
