@@ -39,30 +39,36 @@ public class NosMudamos_489 {
             if(actuales.length>nuevos.length){
                 System.out.println("NO");
             }else{
+
              for(int i=0;i<actuales.length;i++){
-                 actuales[i]=0;
+                 if(actuales[i]>alta_posicion_array(nuevos)){
+                     System.out.println("NO");
+                 }else{
+                     System.out.println("SI");
+                 }
              }
 
             }
 
-            public int NuevoGrande(){
-                int valor=0;
-                for(int i=0;i<nuevos.length;i++){
-
-                    if(nuevos[i]>valor){
-                        valor=nuevos[i];
-                    }
-                    return valor;
-
-                }
-            }
 
         }
 
 
+    }//fin main
+
+    public static int alta_posicion_array(int[] array){
+        int posicion=0, valor=0;
+
+        for(int i=0; i<array.length; i++){
+            if(array[i]>valor){
+                valor=array[i];
+                posicion=i;
+            }
+        }
+
+        return valor;
     }
 
 
+}//fin clase
 
-
-}
